@@ -68,7 +68,7 @@ export async function getStaticProps(context) {
         title: selectedMeetup.title,
         address: selectedMeetup.address,
         image: selectedMeetup.image,
-        description: selectedMeetup.description,
+        // description: selectedMeetup.description,
       },
     },
   };
